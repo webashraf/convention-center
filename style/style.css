@@ -53,7 +53,7 @@ footer {
 
   .row.moment-row {
     flex-direction: column-reverse;
-    gap: 26px;
+    gap: 27px;
   }
   .quetion-section .container .row {
     flex-direction: column-reverse !important;
