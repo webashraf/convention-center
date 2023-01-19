@@ -4,14 +4,19 @@ footer {
   margin-top: 130px;
 }
 /*  */
+
+/* Tosts style */
+.toast:not(.show) {
+  display: block;
+}
+/*  */
 /* Card Style */
 .col.d-flex.flex-wrap.gx-2 .card {
   width: 23% !important;
 }
 
 .card.rounded-5.p-3.border-0.bg-primary.text-light.shadow-lg.position-relative {
-  height: 419px;
-  top: -20px;
+  top: -44px;
 }
 .card.rounded-5.p-3.border-0.bg-primary.text-light.shadow-lg.position-relative {
   box-shadow: 0px 17px 52px -3px #3f87f5;
@@ -43,9 +48,10 @@ footer {
 @media all and (max-width: 576px) {
   .col.d-flex.flex-wrap.gx-2 .card {
     width: 100% !important;
+    margin: 20px 15px;
   }
 
-  .row.flex-sm-column-reverse {
+  .row.moment-row {
     flex-direction: column-reverse;
     gap: 26px;
   }
