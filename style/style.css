@@ -1,0 +1,56 @@
+/* Universel Style */
+section,
+footer {
+  margin-top: 130px;
+}
+/*  */
+/* Card Style */
+.col.d-flex.flex-wrap.gx-2 .card {
+  width: 23% !important;
+}
+
+.card.rounded-5.p-3.border-0.bg-primary.text-light.shadow-lg.position-relative {
+  height: 419px;
+  top: -20px;
+}
+.card.rounded-5.p-3.border-0.bg-primary.text-light.shadow-lg.position-relative {
+  box-shadow: 0px 17px 52px -3px #3f87f5;
+}
+
+/*  */
+
+/* Packege style */
+.packege-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.packege-list li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  background-color: #ff00d71c;
+  padding: 4px;
+  border-radius: 50%;
+  margin-right: 9px;
+}
+.hot {
+  top: -10px;
+  right: 27px;
+}
+/*  */
+
+/* Responsive for mobile */
+@media all and (max-width: 576px) {
+  .col.d-flex.flex-wrap.gx-2 .card {
+    width: 100% !important;
+  }
+
+  .row.flex-sm-column-reverse {
+    flex-direction: column-reverse;
+    gap: 26px;
+  }
+  .quetion-section .container .row {
+    flex-direction: column-reverse !important;
+  }
+}
+/*  */
